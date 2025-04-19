@@ -1,0 +1,19 @@
+meta {
+  name: add-task
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8080/tasks
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "name": "cooking",
+      "description": "Cook the dinner",
+      "priority": "High"
+  }
+}

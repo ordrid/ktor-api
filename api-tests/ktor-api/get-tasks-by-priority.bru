@@ -1,0 +1,15 @@
+meta {
+  name: get-tasks-by-priority
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:8080/tasks/byPriority/:priority
+  body: none
+  auth: inherit
+}
+
+params:path {
+  priority: Medium
+}

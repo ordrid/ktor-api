@@ -1,0 +1,15 @@
+meta {
+  name: delete-task
+  type: http
+  seq: 6
+}
+
+delete {
+  url: http://localhost:8080/tasks/:taskName
+  body: none
+  auth: inherit
+}
+
+params:path {
+  taskName: cleaning
+}

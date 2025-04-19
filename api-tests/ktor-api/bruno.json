@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ktor-api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
